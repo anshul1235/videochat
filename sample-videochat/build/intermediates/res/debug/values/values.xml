@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/11101/Downloads/quickblox-android-sdk-db1fec1f9f42499e8107e8bd3ebab45e1997a44d/sample-videochat/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background_color">#fff</color>
+    <color name="black">#111</color>
+    <color name="blue">#0073b9</color>
+    <color name="blue_highlight">#990073b9</color>
+    <color name="gray">#ff5a5b5f</color>
+    <color name="green">#1cba48</color>
+    <color name="white">#fff</color>
+    <!-- From: file:/Users/11101/Downloads/quickblox-android-sdk-db1fec1f9f42499e8107e8bd3ebab45e1997a44d/sample-videochat/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="logo_maxwidth">320dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_middle">10dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="padding_large">15dp</dimen>
+    <dimen name="padding_middle">10dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_middle">18sp</dimen>
+    <dimen name="text_size_small">15sp</dimen>
+    <!-- From: file:/Users/11101/Downloads/quickblox-android-sdk-db1fec1f9f42499e8107e8bd3ebab45e1997a44d/sample-videochat/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">QuickBlox VideoChat</string>
+    <string name="audio_call_txt">AudioCall</string>
+    <string name="call_canceled_txt">Call canceled by caller</string>
+    <string name="call_start_txt">Call Start</string>
+    <string name="call_user">call </string>
+    <string name="calling_dialog_title">Incoming call</string>
+    <string name="calling_dialog_txt">Calling</string>
+    <string name="choose">Choose</string>
+    <string name="colon">:</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_ok">OK</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="login">login</string>
+    <string name="login_by_first_user">Login as the first user</string>
+    <string name="login_by_second_user">Login as the second user</string>
+    <string name="login_screen_title">Login as a User1 on the 1st device and as a User2 on the second device</string>
+    <string name="logout">Log Out</string>
+    <string name="name">Name</string>
+    <string name="name_with_colon">Name:</string>
+    <string name="password">password</string>
+    <string name="phone">Phone</string>
+    <string name="please_sign_in">Please signIn by this user!</string>
+    <string name="please_wait">Please wait</string>
+    <string name="qb_slogan">YOUR COMMUNICATION \nBACKEND</string>
+    <string name="save">save</string>
+    <string name="self_edit">Self edit</string>
+    <string name="show_user">Show User</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="start_chat">start chat</string>
+    <string name="tags">Tags</string>
+    <string name="tags_with_colon">Tags:</string>
+    <string name="three_dots">…</string>
+    <string name="update">Update</string>
+    <string name="update_user">Update User</string>
+    <string name="user_log_out_msg">User successfully logout!</string>
+    <string name="user_successfully_deleted">User was successfully deleted!</string>
+    <string name="user_successfully_sign_in">User was successfully sign in!</string>
+    <string name="user_successfully_updated">User was successfully updated!</string>
+    <string name="users">Users</string>
+    <string name="video_call_txt">VideoCall</string>
+    <string name="web_site">Web Site</string>
+</resources>

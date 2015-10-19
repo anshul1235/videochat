@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <ListView
+        android:id="@+id/users_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_relative_layout"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:visibility="gone"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/self_edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/sign_in_button"
+            android:onClick="onClick"
+            android:text="Logout"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/self_edit_button"
+            android:onClick="onClick"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/sign_up_button"
+            android:onClick="onClick"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/Users/11101/Downloads/quickblox-android-sdk-db1fec1f9f42499e8107e8bd3ebab45e1997a44d/sample-videochat/src/main/res/layout/activity_users_list.xml -->
